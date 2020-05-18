@@ -192,10 +192,10 @@
 							<configOptions>
 								<dateLibrary>java8</dateLibrary>
 								<sourceFolder>src/gen/java/main</sourceFolder>
-								<packageName>com.pricecheck.ebay.api</packageName>
-								<apiPackage>com.pricecheck.ebay.api</apiPackage>
-								<modelPackage>com.pricecheck.ebay.api.model</modelPackage>
-								<invokerPackage>com.pricecheck.ebay.api.invoker</invokerPackage>
+								<packageName>io.biza.lap.api</packageName>
+								<apiPackage>io.biza.lap.api</apiPackage>
+								<modelPackage>io.biza.lap.api.model</modelPackage>
+								<invokerPackage>io.biza.lap.api.invoker</invokerPackage>
 								<library>jersey2</library>
 							</configOptions>
 						</configuration>
