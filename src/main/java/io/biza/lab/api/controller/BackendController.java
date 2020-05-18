@@ -1,19 +1,13 @@
 package io.biza.lab.api.controller;
 
 
-import io.biza.lap.api.AccountsApi;
-import org.springframework.beans.factory.annotation.Autowired;
+import io.biza.lap.api.BankingApiController;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestParam;
+import org.springframework.web.context.request.NativeWebRequest;
 
-public class BackendController  {
-    @Autowired
-    AccountsApi accountsApi;
-    @GetMapping("/search")
-    public String search(@RequestParam(value = "q") String q) {
-//        accountsApi.getBalance()
-        return q;
+public class BackendController extends BankingApiController {
+    public BackendController(NativeWebRequest request) {
+        super(request);
     }
-
-
 }
