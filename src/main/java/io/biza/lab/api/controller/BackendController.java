@@ -1,4 +1,4 @@
-package io.biza.lab.api;
+package io.biza.lab.api.controller;
 
 
 import io.biza.lap.api.AccountsApi;
